@@ -11,7 +11,7 @@
       <meta-data android:name="android.app.lib_name" android:value="game" />
       <meta-data android:name="com.oculus.vr.focusaware" android:value="true" />
     </activity>
-    <meta-data android:name="com.oculus.ossplash.background" android:value="black" />
+    <meta-data android:name="com.oculus.ossplash.background" android:value="passthrough-contextual" />
     <meta-data android:name="com.oculus.telemetry.project_guid" android:value="6f9154f7-77e5-444c-a0ff-c89a586a705e" />
     <meta-data android:name="com.oculus.supportedDevices" android:value="quest2|questpro|quest3|quest3s" tools:replace="android:value" />
     <meta-data android:name="com.oculus.handtracking.frequency" android:value="LOW" />
@@ -26,4 +26,5 @@
   <uses-feature android:name="com.oculus.experimental.enabled" android:required="true" />
   <uses-feature android:name="oculus.software.handtracking" android:required="false" />
   <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+  <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="false" />
 </manifest>
