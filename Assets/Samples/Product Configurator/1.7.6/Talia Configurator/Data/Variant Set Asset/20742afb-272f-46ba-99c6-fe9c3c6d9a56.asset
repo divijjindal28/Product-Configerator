@@ -16,6 +16,6 @@ MonoBehaviour:
   hide: 0
   variantSetName: Chair Type
   hasStoreCameraPositionAndRotation: 1
-  storeCameraPosition: {x: -0.7317313, y: 0.7260467, z: 0.39170372}
-  storeCameraRotation: {x: -0.056958593, y: -0.93257993, z: 0.16938005, w: -0.3136254}
-  storeCameraDistance: 1.6248108
+  storeCameraPosition: {x: 0.014823283, y: 0.004531703, z: 0.2224703}
+  storeCameraRotation: {x: 0.0006920192, y: -0.9992671, z: 0.031187348, w: 0.022185689}
+  storeCameraDistance: 0.1709712
