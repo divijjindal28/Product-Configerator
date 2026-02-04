@@ -33,9 +33,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SkidLoader Configurator - copy.unity
     guid: 329c0e0f1792e624e959022e63280dfc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SKIDLOADER_FINAL.unity
     guid: f4d0c36d591f8904385ec4b925f0e63d
+  - enabled: 1
+    path: Assets/Scenes/CHAIR_FINAL.unity
+    guid: 28505e19874537242955d63284db75d9
+  - enabled: 0
+    path: Assets/Samples/Product Configurator/1.7.6/Talia Configurator/Talia Chair
+      Configurator.unity
+    guid: cb44bbeecc4fc2f4796d816d16fbded3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6c9599232836d4e4d89e7b68527b54ee, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

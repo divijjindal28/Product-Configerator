@@ -2435,7 +2435,7 @@ MonoBehaviour:
       - m_Target: {fileID: 589429917}
         m_TargetAssemblyTypeName: IndustryCSE.Tool.ProductConfigurator.Runtime.GameObjectVariantSet,
           Unity.IndustryCSE.ProductConfigurator.Runtime
-        m_MethodName: SetDefaultIndex
+        m_MethodName: SelectVariant
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4748,7 +4748,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 580e2dabb2e0ba54b9fdb529ee2d9260, type: 3}
+  m_Texture: {fileID: 2800000, guid: cb398afb0c68b564c9ff9459e6c21c9d, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -10504,7 +10504,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: cb398afb0c68b564c9ff9459e6c21c9d, type: 3}
+  m_Texture: {fileID: 2800000, guid: 580e2dabb2e0ba54b9fdb529ee2d9260, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -14362,7 +14362,7 @@ MonoBehaviour:
       - m_Target: {fileID: 589429917}
         m_TargetAssemblyTypeName: IndustryCSE.Tool.ProductConfigurator.Runtime.GameObjectVariantSet,
           Unity.IndustryCSE.ProductConfigurator.Runtime
-        m_MethodName: SetDefaultIndex
+        m_MethodName: SelectVariant
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15454,7 +15454,7 @@ MonoBehaviour:
       - m_Target: {fileID: 589429917}
         m_TargetAssemblyTypeName: IndustryCSE.Tool.ProductConfigurator.Runtime.GameObjectVariantSet,
           Unity.IndustryCSE.ProductConfigurator.Runtime
-        m_MethodName: SetDefaultIndex
+        m_MethodName: SelectVariant
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16358,6 +16358,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3553983973863764439, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916883865002695970, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916883865002695970, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916883865002695970, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 3916883865002695970, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -16398,6 +16414,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3916883865002695970, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4057211881904927123, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -16412,7 +16432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4400089077244856216, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4413234345598513083, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -16422,6 +16442,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 90ebe93b0b0575f489d26e4ef51a7119, type: 2}
+    - target: {fileID: 4755082719692281120, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755082719692281120, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 4757338762045645347, guid: ee69992c5e8c0d2459acfaf4101e72fe, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
